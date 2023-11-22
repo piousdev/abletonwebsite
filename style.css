@@ -1,0 +1,57 @@
+:root {
+    --mindaro: hsl(63, 100%, 83%);
+    --periwinkle: hsl(225, 100%, 85%);
+    --celadon: hsl(128, 100%, 86%);
+    --blue: hsl(240, 100%, 50%);
+    --mauve: hsl(267, 100%, 85%);
+    --coral: hsl(14, 100%, 65%);
+}
+
+@font-face {
+    font-family: Futura;
+    src: local(Futura), url("assets/Fonts/Futura/FuturaPTCondExtraBoldOblique.otf") format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Futura;
+    src: local(Futura), url("assets/Fonts/Futura/FuturaPTExtraBoldOblique.otf") format('opentype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: Futura;
+    src: local(Futura), url("assets/Fonts/Futura/FuturaPTCondBoldOblique.otf") format('opentype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: Futura;
+    src: local(Futura), url("assets/Fonts/Futura/FuturaPTBoldOblique.otf") format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Futura;
+    src: local(Futura), url("assets/Fonts/Futura/FuturaPTHeavyOblique.otf") format('opentype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: Futura;
+    src: local(Futura), url("assets/Fonts/Futura/FuturaPTDemiOblique.otf") format('opentype');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: Futura;
+    src: local(Futura), url("assets/Fonts/Futura/FuturaPTCondMediumOblique.otf") format('opentype');
+    font-weight: normal;
+    font-style: oblique;
+}
