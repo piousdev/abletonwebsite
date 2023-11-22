@@ -8,30 +8,30 @@
 </head>
 <body>
     <header role="banner">
-        <nav>
-            <div>
-                <div class="logo">
-                    <img src="./assets/logo.png" alt="ableton log" />
-                </div>
+        <nav aria-label="Main Navigation">
+            <a href="index.html" class="logo">
+                <svg aria-hidden="true" focusable="false" class="main-nav__logo__image" xmlns="http://www.w3.org/2000/svg" width="45" height="21" viewBox="0 0 45 21"><path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path></svg>
+            </a>
+            <div id="main-nav-content" class="main-nav" aria-hidden="false">
                 <ul>
-                    <li>Live</li>
-                    <li>Push</li>
-                    <li>Note</li>
-                    <li>Link</li>
-                    <li>Shop</li>
-                    <li>Packs</li>
-                    <li>Help</li>
+                    <li><a>Live</a></li>
+                    <li><a>Push</a></li>
+                    <li><a>Note</a></li>
+                    <li><a>Link</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>Packs</a></li>
+                    <li><a>Help</a></li>
                     <li>
-                        <button>
+                        <button class="main-nav-more-button" aria-expanded="false" aria-haspopup="true" aria-controls="more">
                             More
-                            <span><img src="" alt="more"/></span>
+                            <span class="main-icon-more-container"><span class="main-icon-more"></span></span>
                         </button>
                     </li>
                 </ul>
-            </div>
-            <div>
-                <a>Try Live for free</a>
-                <a>Login in or register</a>
+                <ul>
+                    <li><a>Try Live for free</a></li>
+                    <li><a>Login in or register</a></li>
+                </ul>
             </div>
         </nav>
     </header>
